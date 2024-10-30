@@ -1,0 +1,16 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: root
+    password: root
+    url: jdbc:postgresql://localhost:5432/backend
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+logging:
+  level:
+    root: ERROR
+    org.springframework: ERROR
